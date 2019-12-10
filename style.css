@@ -1,0 +1,141 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+html {
+  font-family: Courier, Tahoma, Verdana, Arial, sans-serif;
+  font-size:   20px;
+  line-height: 150%;
+
+  background-image: url("Media/Tapete.jpg"); 
+  background-size: 120%;
+
+  /*background-color: rgb(158, 104, 71);*/
+  color:            rgb(0, 0, 0);
+}
+body {
+
+
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 0;
+
+}
+header{
+background: rgb(29,29,29);
+}
+header nav{
+	padding: 20px;
+	background: rgb(29,29,29);
+	overflow: hidden;
+
+}
+
+header nav a{
+	float: right;
+	color: grey;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0px 15px;
+	font-weight: bold;
+}
+@font-face {
+font-family: 'AmericanCaptain';
+src: url('Media/AmericanCaptain.ttf');
+}
+header nav ul #id1{
+ font-family: 'AmericanCaptain';
+ font-size: 50px;
+ font-weight: bold;
+ float: left;
+ color: rgb(241, 110, 30);
+}
+header nav li{
+	display: inline-block;
+
+	float: right;
+}
+section{
+	padding: 10px;
+	background-image: url("Media/background.jpg");
+    background-position: center top;
+    background-size: 100% auto;
+    height: 4800px;
+}
+header nav a:hover{
+	background: grey;
+	color: black;
+}
+
+header nav #current{
+
+	color: rgb(14,111,80);
+}
+
+section h1, section h2{
+	text-align: center;
+	font-size: 23px;
+	margin-bottom: 15px;
+	padding: 20px;
+
+}
+section p{
+	font-size: 15px;
+	
+	margin-bottom: 15px;
+	padding: 60px;
+}
+
+
+
+section div a {
+
+		padding: 60px;
+
+	color: black;
+	text-decoration: none;
+}
+
+section div a:hover{
+
+
+	color: blue;
+	text-decoration: underline;
+
+}
+
+
+
+section p img{
+	float: center;
+
+}
+
+section div {
+
+	text-align: left;
+}
+
+section h3{
+	text-align: center;
+ font-size: 60px;
+ font-weight: bold;
+ margin-bottom: 30px;
+ margin-top: 30px;
+}
+section h4{
+ font-style: italic;
+}
+section h5{
+	padding: 60px;
+font-style: italic;
+
+
+}
+
+
+
+/* Add more style information for other elements */
